@@ -30,7 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [#adding new application to installed apps so django can correctly search and find templates
+INSTALLED_APPS = [  # adding new application to installed apps so django can correctly search and find templates
+    'users.apps.UsersConfig',
     'blog.apps.BlogConfig', 
     'django.contrib.admin',
     'django.contrib.auth',
